@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "namePrefix": {
+      "value": "GEN-UNIQUE-8"
+    },
+    "existingDomainName": {
+      "value": "contoso.com"
+    },
+    "adminUsername": {
+      "value": "AzureAdmin"
+    },
+    "adminPassword": {
+      "value": "T23twfdw!5325"
+    },
+    "existingVirtualNetworkName": {
+      "value": "adVNET"
+    },
+    "existingVirtualNetworkRGName": {
+      "value": "rg-dc-servers-uks-01"
+    },
+    "existingSubnetName": {
+      "value": "adsubnet2"
+    }
+  }
+}
